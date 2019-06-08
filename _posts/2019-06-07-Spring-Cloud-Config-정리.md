@@ -33,6 +33,9 @@ spring:
          native:
            search-locations: classpath:/config,classpath:config/test  # classpath의 config/, config/test/ 폴더에서 읽는다. 
 ~~~ 
+~~주의(?) !
+docs에는 searchLocations 라고 나오지만 IDEA Ultimate에서 자동완성은 search-locations 라고 되는...?~~
+해보니까 searchLocations와 search-locations 둘다 작동한다. 코딩스타일을 지키기 위한 배려.....?
 
 ### 2. git Repository에서 읽기
 ~~~
@@ -50,3 +53,4 @@ spring:
 - https://github.com/gilbutITbook/006962/blob/master/spmia-chapter3/confsvr/src/main/resources/application.yml
 - https://brunch.co.kr/@springboot/113
 - https://spring.io/projects/spring-cloud-config
+- https://luvstudy.tistory.com/63
