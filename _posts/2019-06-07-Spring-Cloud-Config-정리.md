@@ -22,7 +22,7 @@
 
 
 ### 1. 로컬에서 읽기 
-~~얜 안돌려봤음... 이게 맞나?
+~~얜 안돌려봤음... 이게 맞나?~~
 
 로컬에서 읽기 위해서는 스프링 프로필을 native로 설정해줘야 한다.
 ~~~
@@ -35,6 +35,7 @@ spring:
 ~~~ 
 ~~주의(?) !
 docs에는 searchLocations 라고 나오지만 IDEA Ultimate에서 자동완성은 search-locations 라고 되는...?~~
+
 해보니까 searchLocations와 search-locations 둘다 작동한다. 코딩스타일을 지키기 위한 배려.....?
 
 ### 2. git Repository에서 읽기
@@ -47,6 +48,8 @@ spring:
            uri: https://github.com/sang5c/spring-config-repository
 ~~~
 
+
+TODO: config 
 
 #### 참조 (정리 엄청 잘됨)
 - http://blog.leekyoungil.com/?p=352
