@@ -22,16 +22,17 @@
 
 
 ### 1. 로컬에서 읽기 
-*얜 안돌려봤음... 이게 맞나?*
+~~얜 안돌려봤음... 이게 맞나?
+
+로컬에서 읽기 위해서는 스프링 프로필을 native로 설정해줘야 한다.
 ~~~
 spring:
   cloud:
      config:
        server:
          native:
-           search-paths: classpath:config/,classpath:config/test/  # classpath의 config/, config/test/ 폴더에서 읽는다. 
+           search-locations: classpath:/config,classpath:config/test  # classpath의 config/, config/test/ 폴더에서 읽는다. 
 ~~~ 
-*일단 잔디심고 수정해야지*
 
 ### 2. git Repository에서 읽기
 ~~~
@@ -47,3 +48,5 @@ spring:
 #### 참조 (정리 엄청 잘됨)
 - http://blog.leekyoungil.com/?p=352
 - https://github.com/gilbutITbook/006962/blob/master/spmia-chapter3/confsvr/src/main/resources/application.yml
+- https://brunch.co.kr/@springboot/113
+- https://spring.io/projects/spring-cloud-config
